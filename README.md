@@ -1,16 +1,38 @@
-# ha
+**Opino – Lab Report Analyzer**
 
-A new Flutter project.
 
-## Getting Started
+Opino is a smart lab report analyzer app that allows users to upload medical reports (PDF or image formats) and get instant, AI-powered analysis of their results. Designed to bridge the gap between complex medical terms and user understanding, Opino provides simplified summaries, abnormality highlights, and smart suggestions for possible next steps.
 
-This project is a starting point for a Flutter application.
+✨ Features
+📄 Upload Reports – Supports both PDFs and images (JPG/PNG).
 
-A few resources to get you started if this is your first Flutter project:
+🧬 AI-Powered Analysis – Extracts and understands lab values intelligently.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+⚠️ Abnormality Detection – Highlights values that fall outside normal ranges.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📚 Simple Explanations – Converts technical jargon into plain language.
+
+📊 Visual Insights – Graphical view of critical lab metrics.
+
+🔐 Privacy First – Reports are processed securely on-device or via private endpoints.
+
+🚀 Getting Started
+Prerequisites
+Flutter SDK
+
+Python (for backend, if applicable)
+
+Dependencies like pdf_text, image_picker, or any ML libraries (e.g., scikit-learn / transformers)
+
+git clone https://github.com/your-username/opino.git
+
+🧪 How It Works
+Upload: The user uploads a medical report.
+
+OCR/Parsing: Text is extracted from PDF or image using OCR.
+
+Entity Recognition: The system identifies key medical terms, values, and reference ranges.
+
+Abnormal Detection: Compares values with standard medical ranges.
+
+Output: Simplified report is displayed along with health insights.
